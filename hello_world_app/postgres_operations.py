@@ -1,11 +1,13 @@
+import os
+
 import sqlalchemy
 
 
-DB_HOST = "34.71.89.192"
-DB_PORT = 5432
-DB_NAME = "athena11"
-DB_USER = "sa_playall"
-DB_PASS = "6jOgxUIhmXzSLeQh"
+DB_HOST = os.environ["DB_HOST"]
+DB_PORT = os.environ["DB_PORT"]
+DB_NAME = os.environ["DB_NAME"]
+DB_USER = os.environ["DB_USER"]
+DB_PASS = os.environ["DB_PASS"]
 
 
 class PostgresClient:
