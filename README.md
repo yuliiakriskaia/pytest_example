@@ -23,7 +23,9 @@ https://www.python.org/downloads/
 
 `source venv/bin/activate`
 
-4. From root dir run
+4. Setup environmental variables 
+
+5. From root dir run
 
 `pytest --cov-report html --cov=hello_world_app tests/`
 
